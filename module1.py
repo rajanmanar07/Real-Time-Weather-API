@@ -1,4 +1,2 @@
-def f1():
-    print('m1 module')
-if __name__=='__main__':
-   f1()
+print("bye word")
+print("bye word")
