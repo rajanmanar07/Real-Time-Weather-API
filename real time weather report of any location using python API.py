@@ -20,6 +20,6 @@ else:
      print('---------------------------------------')
      print('current temperature is: {:.2f} deg C'.format(tem))
      print('current humidity is: {} %'.format(hmd))
-     print('current speed is: {} kmph'.format(spd))
+     print('current wind speed is: {} kmph'.format(spd))
      print('current weather description is: {}'.format(descr))
      print('---------------------------------------')
