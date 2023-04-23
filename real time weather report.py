@@ -6,7 +6,6 @@ location = input('enter the city  name:')
 complete_api_link = "https://api.openweathermap.org/data/2.5/weather?q="+location+"&appid="+user_api
 api_link= requests.get(complete_api_link)
 api_data=api_link.json()
-#print(api_data)
 if api_data['cod']=='404':
     print('invalid city name {} :please enter valid city name'.format(location))
 else:
